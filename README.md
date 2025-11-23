@@ -6,7 +6,7 @@ A simple kiosk setup for displaying Home Assistant dashboards on Linux with Wayl
 
 1. create kisok.conf using kisok.conf.example for reference
 
-2. 
+2. Install with install script
 ```bash
 ./install.sh
 ```
@@ -24,6 +24,7 @@ systemctl --user start ha-kiosk.service
 
 ## Uninstall
 
+Reclone and run uninstall script, or run the one that is copied to your config
 ```bash
 ~/.config/ha-kiosk/uninstall.sh
 ```
